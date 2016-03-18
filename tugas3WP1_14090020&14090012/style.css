@@ -1,0 +1,216 @@
+/*-----------------------------
+class keseluruhan 
+-----------------------------*/
+*{
+	padding:0;
+	margin:0; }
+body{
+	font-family: cambria; 
+	font-size:16px; 
+	font-style:bold; 
+	color:#000000; 
+	background:url(9.jpg) no-repeat;
+	background-attachment:fixed; 
+	background-size:100% 100%; }
+
+
+/*----------------------------
+id menu
+-----------------------------*/
+#menu{
+	background:#000;
+	height:70px;
+	position:fixed;
+	right:0px;
+	left:0px;
+	z-index:1032px;
+	padding:0;
+	margin:0;
+}
+#judul h2{
+	font-size:60px;
+	background:url(9.jpg) no-repeat;
+	line-height:50px;
+	width:650px;
+	border-radius:30px;
+	margin-top:10px;
+	
+}
+/*----------------------------
+id menu sidebar slide
+-----------------------------*/	
+#profil{
+	margin-top:5px;
+}	
+#sidebar{
+	width:auto;
+	height:auto;
+	background:rgba(125, 46, 0, 0.63);
+	float:left;
+	position: fixed;
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-bottom:5px;
+	margin-top: 70px;
+	/*	box-shadow: 3px 3px #ff8540; 
+	-webkit-clip-path: polygon(0% 0%, 70% 0%, 100% 30%, 100% 75%, 65% 100%, 0% 100%, 0% 0%, 0% 0%);*/}
+
+ul.slider li{
+	-webkit-transition-duration: 800ms;
+	width: auto;
+	height: auto;
+	border:1px solid #F2F2F2;
+	margin:1px;
+	display: block;
+	margin-left:10px;
+	border-radius:30px;}
+
+ul.slider li:hover
+{
+	margin-left: 30px;}
+
+ul.slider li a{
+	-webkit-transition-duration: 800ms, 800ms, 800ms, 800ms;
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	display:block;
+	text-decoration:none;
+	border-radius:30px;
+}
+ul.slider li a:hover{
+	background-color: #FF6600;
+	color: #D8DFEA;
+	padding-left: 30px;}
+	
+/*----------------------------
+id kalkulator
+-----------------------------*/
+#kalkulator{
+	padding:30px;
+	margin:auto;
+	margin-top:60px;
+	border:silver outset 5px;
+	border-radius:30px;
+	width:500px;
+	background:#20B2AA;
+	background-attachment:fixed;
+	background-size:100% 100%;
+}
+.kalkulator2{
+	
+	margin-left:0px;
+	padding:5px;
+}
+.kalkulator2 p{
+	float:left;
+	font-family:consola;
+	font-size:20px;
+	font-style:italic;
+	width:200px;
+	background:black;
+	color:white;
+	padding:3px 5px 0px 5px;
+	border-radius:10px;
+	margin-right:10px;}
+.kalkulator2 input{
+	border:outset;
+	border-radius:20px;
+	height:30px;
+}
+/*----------------------------
+id tombolkalkulator
+-----------------------------*/
+#tombol{
+	padding-bottom:50px;
+	margin-left:0px;
+	
+}
+#tombol p input{
+	float:left;
+	margin:3px;
+	background:lime;
+	color:white;
+	border:white outset 4px;
+	border-radius:15px;
+	padding:5px;
+	font-size:18px;
+	font-style: bold;
+
+}
+#tombol p input:hover{
+	background:#FF5722;
+	color:white;
+	font-size:20px;
+	border:black solid 4px;
+}
+.button a{
+	border-radius:10px;
+	float:left;
+	margin:5px;
+	text-decoration:none; 
+	display:block; 
+	width:100px; 
+	height:30px; 
+	background:#000; 
+	color:#ffffff; 
+	font-family: 'Oswald', sans-serif; 
+	line-height:30px; 
+	text-align:center; 
+	text-transform:uppercase;}
+.button a:hover{
+	background:orange;
+	color:#ffffff;}
+.clearing{
+	clear:both;}
+
+
+/*--------------------------
+id badan
+---------------------------*/
+
+#badan{
+	margin:auto;
+	padding:50px 50px 50px 30px;
+	border:silver outset 5px;
+	border-radius:30px;
+	width:1000px;
+	height:100% 100%;
+	background:url(5.jpg)no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	overflow:hidden;
+}
+#badan2{
+	margin-left:30px;
+}
+#badan2 p{
+	color:white;
+}
+#badan img{
+	margin-left:330px;
+	margin-bottom:30px;
+}
+
+/*----------------------------
+profil bakti
+----------------------------*/
+#DRH{
+	margin:auto;
+	color:#ffffff;   
+	font-family:20px; 
+	text-align:left; 
+	padding:20px 20px 20px 30px;}
+#DRH img{
+	float:right; 
+	height:500px; 
+	width :350px; 
+	background-size:100% 100%;
+	border: #e2e6e9 solid 3px;
+	margin-bottom:50px;
+	}
+
+	
+
+
+
